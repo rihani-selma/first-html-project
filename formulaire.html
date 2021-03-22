@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mon Premier Formulaire</title>
+        <style >
+        fieldset { padding: 5px;   margin-bottom: 30 ; }
+         #d3{    width:50%;
+       float: left;   }
+       #d0{
+      width:170%;   }
+       #d00{
+      width:200%;
+     height: 100%;}
+     #d4{
+     width:50%;
+       float: right; }
+    </style>
+    </head>
+  <body>
+<h1>Votre Avis Nous Intérsse</h1>
+<div id='d3'>
+<table  cellspasing="10" >
+       <td  >
+         <div id='d0' padding= "500px">
+       <form   ><font size="5">
+        <fieldset >
+      <legend>Information Personnelles</legend>
+      <ol>
+      <li>Nom<input type="text"name="Nom"required""></li>
+      <li>Date  de  naissance <input type="date"  name=""required"" value=""></li>
+      <li>Site<input type="Site"placeholder="www:/monsite.com" name=""required"" value=""></li>
+      <li>Emploi
+       <select >
+        <option value="Etudient"> Etudient</option>
+       <option value="Administrateur Réseau"> Administrateur Réseau</option>
+       <option value="Dévlopeur Web"> Dévlopeur Web</option>
+       <option value="Web Designer"> Web Designer</option>
+       <option value="Dev Ops">Dev Ops</option>
+      </select>
+      </li>
+      <li>Approx. Salaire annuel<br>
+      <input type="number" min="1000$" step="1000" placeholder="$" name=""required type="number""" id="number" value="">
+      </li>
+      </ol>
+      <br>
+      </fieldset></font >
+           </form>
+     </div>
+    </td>
+      </table>
+   </div>
+
+<div id='d4'>
+           <table   >
+           <td>
+             <div id='d00'>
+               <form  ><font size="5">
+                  <fieldset >
+            <legend >Information de Contact</legend>
+            <ol>
+            <li>Adresse  linge1 <br> <input type="address" name="" required"" value=""></li>
+           <li>Adresse  linge2 <br> <input type="address" name="" required"" value=""></li>
+           <li>Pays
+          <select >
+          <option value="Algérie">Algérie</option>
+           <option value="Tunisie"> Tunisie</option>
+           <option value="Maroc">Maroc</option>
+           </select>
+           </li>
+          <li>Tél <input type="Tel" placeholder="eg:+213 67 ..." name="" value=""></li>
+          <li>Courriel <input type="email"  name="" required"" value=""></li>
+        </ol><br>
+          </fieldset></font >
+          </form>
+          </div>
+        </td>
+           </table>
+ </div>
+ <br>
+ <br><br><br><br>&nbsp
+<h1>Préférence</h1>
+<div><font size="5">
+choisir une couleur <input type="color" name="" required""  value="black"></font >
+</div>
+<div><font size="5">
+sur une échelle de 1 à 10, quel est votre degré d'enthouisiasme pour HTML 5 ? <input type="range" name=""  required"" value=""></font >
+</div>
+<div><font size="5">
+ <input type="submit" name="" value="Envoyer"></font >
+ </div>
+    </body>
+</html>
